@@ -1,26 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap");
 
 :root {
-  --primary-color: #001233;
-  --secondary-color: #001b4d;
-  --accent-color: #fe8819;
-  /* Back to Orange */
-  --highlight-color: #7303a7;
-  /* Purple for Headings */
-  --role-red: #9b0000;
-  /* Deep Blood Red */
-  --text-main: #f8fafc;
-  --text-muted: #cbd5e1;
-  --bg-gradient: linear-gradient(135deg, #001233 0%, #002057 100%);
-  --card-bg: rgba(255, 255, 255, 0.03);
-  --border-light: rgba(255, 255, 255, 0.1);
+  --primary-color: #2D0A0A;
+  --secondary-color: #3D1010;
+  --accent-color: #C9A84C;
+  /* Rich Gold */
+  --highlight-color: #E8C97A;
+  /* Light Gold for Headings */
+  --role-red: #8B1A1A;
+  /* Deep Maroon */
+  --text-main: #F5F0E8;
+  /* Warm White */
+  --text-muted: #C4B49A;
+  /* Muted Gold-Beige */
+  --bg-gradient: linear-gradient(135deg, #1A0505 0%, #2D0A0A 100%);
+  --card-bg: rgba(201, 168, 76, 0.04);
+  /* Subtle gold tint on cards */
+  --border-light: rgba(201, 168, 76, 0.15);
+  /* Gold border */
   --font-main: "Inter", sans-serif;
   --font-heading: "Outfit", sans-serif;
   --section-pad: 10rem 10%;
-  --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  /* Tighter, darker shadow */
+  --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
   --transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  /* Snappier, mechanical feel */
 }
 
 * {
